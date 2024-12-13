@@ -14,6 +14,6 @@ def install_packages():
     for package in packages:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-# run this script file!!!!
+# run this script file!!!! installs the mentioned packages above
 if __name__ == "__main__":
     install_packages()
