@@ -1,5 +1,4 @@
 # CDD-203-Final-Project: hERG_Karim Drug Classification using an Ensemble Model
-hello my name is hanson this is my readme
 
 ## Introduction
 This project utilizes a Machine Learning model to classify drugs into 2 categories, whether they are a blocker (1) or a non-blocker (0) to the hERG channel. The dataset contains molecular information in the form of SMILES strings, which is used to generate fingerprints for various machine learning models, which their outputs are then fed into an ensemble model for a final prediction. The usage of the ensemble model for this dataset is inspired by the reference paper for this dataset, which can be found in the next section.
